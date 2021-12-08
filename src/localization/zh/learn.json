@@ -1,0 +1,163 @@
+{
+  "examples.starter.title": "练习",
+  "examples.starter.description": "现在是时候做一些练习来巩固我们所学的知识了。",
+
+  "examples.finish.title": "练习完成!",
+  "examples.finish.description": " ",
+
+  "steps.starter.title": "入门",
+  "steps.starter.description": "`RegEx` 是正则表达式的缩写。它有助于匹配、查找或管理文本。首先在 RegEx 输入框中键入 OK 以开始第一步并查看更详细的说明……",
+
+  "steps.whatIsRegex.title": "什么是正则表达式 `RegEx` ？",
+  "steps.whatIsRegex.description": "正则表达式是表示搜索模式的字符串。通常缩写为 `RegEx` 或 `RegExp`。它专门用于在文本中查找或替换单词。此外，我们还可以测试一个文本是否符合我们设定的规则。\\n\\n例如，假设您有一个文件名列表。 并且您只想查找扩展名为 `pdf` 的文件。输入一个表达式 `^\\w+\\.pdf$` 后就可以了。 随着步骤的进行，这个表达式中定义的含义将变得更加清晰。",
+
+  "steps.basicMatchers.title": "基本匹配器",
+  "steps.basicMatchers.description": "直接输入我们要查找的字符或单词。它类似于正常的搜索过程。例如，要在文本中查找单词 `curious`，请键入相同的内容。",
+
+  "steps.dotCharacter.title": "点 `.`: 任意字符",
+  "steps.dotCharacter.description": "句点 `.` 匹配除换行符以外的任意字符，包括特殊字符和空格。",
+
+  "steps.characterSet.title": "字符集 `[abc]`",
+  "steps.characterSet.description": "如果单词中的一个字符可以是各种字符，我们将它写在方括号 `[]` 中，并包含所有候选的字符。  例如，要编写一个可以查找文本中所有单词的表达式，请在方括号 `[]` 内依次键入字符`a`、`e`、`i`、`o`、`u`。 ",
+
+  "steps.negatedCharacterSet.title": "取反字符集 `[^abc]`",
+  "steps.negatedCharacterSet.description": "要查找下面文本中除 `ber` 和 `bor` 之外的所有单词，请在方括号 `[]` 内的插入符号 `^` 字符后并键入 `e` 和 `o` 。",
+
+  "steps.range.title": "字符范围 `[a-z]`",
+  "steps.range.description": "要查找指定范围内的字母，将起始字母和结束字母写在方括号 `[]` 中，并在它们之间使用短横线 `-`。 它区分大小写。 编写一个表达式，选择 `e` 到 `o` 之间的所有小写字母，包括它们自己。",
+
+  "steps.rangeNumber.title": "数字范围`[0-9]`",
+  "steps.rangeNumber.description": "要查找指定范围内的数字，将起始数字和结束数字写在方括号 `[]` 中，并在它们之间用短横线`-`。编写一个表达式，选择`3`到`6`之间的所有数字，包括它们自己。",
+
+  "examples.basicMatchers.title": "练习: 基本匹配器",
+  "examples.basicMatchers.description": "写出在文本中选择单词 `of` 的表达式。",
+
+  "examples.dotCharacter.title": "练习: 任意字符",
+  "examples.dotCharacter.description": "键入表达式以选择文本中的字母、数字、空格和特殊字符。您键入的表达式必须匹配任意字符。",
+
+  "examples.characterSet.title": "练习: 字符集",
+  "examples.characterSet.description": "写出与文本中每个单词匹配的表达式。唯一改变的字符是单词的首字母。",
+
+  "examples.negatedCharacterSet.title": "练习: 取反字符集",
+  "examples.negatedCharacterSet.description": "写下将匹配文本中除`beor`和`beur`之外的任何内容的表达式。 使用取反字符集执行此操作。",
+
+  "examples.range.title": "练习：字符范围",
+  "examples.range.description": "写出选择文本中从 `g` 到 `k` 的字母的正则表达式。\\n `g` 和`k` 字母也应包含在此范围内。 ",
+
+  "examples.rangeNumber.title": "练习: 数字范围",
+  "examples.rangeNumber.description": "键入表达式以选择文本中从 `2` 到 `7` 的数字。\\n `2` 和 `7` 也应包含在此范围内。 ",
+
+  "steps.repetitions.title": "Repetitions",
+  "steps.repetitions.description": "Some special characters are used to specify how many times a character will be repeated in the text. These special characters are the plus `+`, the asterisk `*`, and the question mark `?`.",
+
+  "steps.asterisk.title": "Asterisk `*`",
+  "steps.asterisk.description": "We put an asterisk `*` at the end to indicate that a character does not match at all or can match many times. For example, indicate that the letter `e` should never occur in the text, or it can occur once or more side by side.",
+
+  "steps.plusCharacter.title": "Plus Sign `+`",
+  "steps.plusCharacter.description": "To indicate that a character can occur one or more times, we put a plus sign `+` at the end. For example, indicate that the letter `e` can occur one or more times in the text.",
+
+  "steps.questionMark.title": "Question Mark `?`",
+  "steps.questionMark.description": "To indicate that a character is optional, we put a `?` question mark at the end. For example, indicate that the following letter `u` is optional.",
+
+  "steps.quantifier.title": "Curly Braces - 1",
+  "steps.quantifier.description": "To express a certain number of occurrences of a character, we write curly braces `{n}` along with how many times we want it to occur at the end. For example, indicate that the following letter `e` can occur only `2` times.",
+
+  "steps.quantifierMin.title": "Curly Braces - 2",
+  "steps.quantifierMin.description": "To express at least a certain number of occurrences of a character, we write the end of the character at least how many times we want it to occur, with a comma `,` at the end, and inside curly braces `{n, }`. For example, indicate that the following letter `e` can occur at least `3` times.",
+
+  "steps.quantifierRange.title": "Curly Braces - 3",
+  "steps.quantifierRange.description": "To express the occurrence of a character in a certain number range, we write curly braces `{x,y}` with the interval we want to go to the end. For example, indicate that the following letter `e` can only occur between `1` and `3`.",
+
+  "examples.asterisk.title": "Practice: Asterisk `*`",
+  "examples.asterisk.description": "Use the asterisk `*` to write the expression that will select each word, suitable for the absence of the letter `e` in the text and the presence of more than one.",
+
+  "examples.plusCharacter.title": "Practice: Plus Sign `+`",
+  "examples.plusCharacter.description": "Write the expression using the plus sign `+` to select words in which the letter `e` occurs one or more times in the text.",
+
+  "examples.questionMark.title": "Practice: Question Mark `?`",
+  "examples.questionMark.description": "Write the expression indicating that the letter `n` is optional in the text, using the question mark `?`. Thus, both the words `a` and `an` can be selected.",
+
+  "examples.quantifier.title": "Practice: Curly Braces - 1",
+  "examples.quantifier.description": "Write the expression using curly braces `{}` to select `4` digit numbers from `0` to `9` in the text.",
+
+  "examples.quantifierMin.title": "Practice: Curly Braces - 2",
+  "examples.quantifierMin.description": "Type the expression using curly braces `{}` to select numbers between `0` and `9` that occur at least `2` times in the text.",
+
+  "examples.quantifierRange.title": "Practice: Curly Braces - 3",
+  "examples.quantifierRange.description": "Write the expression using curly braces `{}` to select the numbers from `0` to `9` in the text that is at least between `1` and `4`.",
+
+  "steps.groupping.title": "Parentheses `( )`: Grouping",
+  "steps.groupping.description": "We can group an expression and use these groups to reference or enforce some rules. To group an expression, we enclose `()` in parentheses. For now just group `haa` below.",
+
+  "steps.groupReference.title": "Referencing a Group",
+  "steps.groupReference.description": "The words `ha` and `haa` are grouped below. The first group is used by writing `\\1` to avoid rewriting. Here `1` denotes the order of grouping. Type `\\2` at the end of the expression to refer to the second group.",
+
+  "steps.nonCapturingGroupping.title": "Parentheses `(?: )`: Non-capturing Grouping",
+  "steps.nonCapturingGroupping.description": "You can group an expression and ensure that it is not caught by references. For example, below are two groups. However, the first group reference we denote with `\\1` actually points to the second group, as the first is an uncaught group.",
+
+  "steps.pipeCharacter.title": "Pipe Character `|`",
+  "steps.pipeCharacter.description": "It allows to specify that an expression can be in different expressions. Thus, all possible statements are written separated by the pipe sign `|`. This differs from charset `[abc]`, charsets operate at the character level. Alternatives are at the expression level. For example, the following expression would select both `cat` and `Cat`. Add another pipe sign `|` to the end of the expression and type `rat` so that all words are selected.",
+
+  "steps.escapeCharacter.title": "Escape Character `\\`",
+  "steps.escapeCharacter.description": "There are special characters that we use when writing regex. `{ } [ ] / \\ + * . $^ | ?` Before we can select these characters themselves, we need to use an escape character `\\`. For example, to select the dot `.` and asterisk `*` characters in the text, let's add an escape character `\\` before it.",
+
+  "steps.caret.title": "Caret Sign `^`:\\nSelecting by Line Start",
+  "steps.caret.description": "We were using `[0-9]` to find numbers. To find only numbers at the beginning of a line, prefix this expression with the `^` sign.",
+
+  "steps.dollar.title": "Dollar Sign `$`:\\nSelecting by End of Line",
+  "steps.dollar.description": "Let's use the `$` sign after the `html` value to find the `html` texts only at the end of the line.",
+
+  "steps.wordCharacter.title": "Word Character `\\w`: Letter, Number and Underscore",
+  "steps.wordCharacter.description": "The expression `\\w` is used to find letters, numbers and underscore characters. Let's use the expression `\\w` to find word characters in the text.",
+
+  "steps.withoutWordCharacter.title": "Except Word Character `\\W`",
+  "steps.withoutWordCharacter.description": "The expression `\\W` is used to find characters other than letters, numbers, and underscores.",
+
+  "steps.numberCharacter.title": "Number Character `\\d`",
+  "steps.numberCharacter.description": "`\\d` is used to find only number characters.",
+
+  "steps.withoutNumberCharacter.title": "Except Number Character `\\D`",
+  "steps.withoutNumberCharacter.description": "`\\D` is used to find non-numeric characters.",
+
+  "steps.spaceCharacter.title": "Space Character `\\s`",
+  "steps.spaceCharacter.description": "`\\s` is used to find only space characters.",
+
+  "steps.withoutSpaceCharacter.title": "Except Space Character `\\S`",
+  "steps.withoutSpaceCharacter.description": "`\\S` is used to find non-space characters.",
+
+  "steps.lookarounds.title": "Lookarounds",
+  "steps.lookarounds.description": "If we want the phrase we're writing to come before or after another phrase, we need to \"lookaround\". Take the next step to learn how to \"lookaround\".",
+
+  "steps.positiveLookahead.title": "Positive Lookahead: `(?=)`",
+  "steps.positiveLookahead.description": "For example, we want to select the hour value in the text. Therefore, to select only the numerical values that have `PM` after them, we need to write the positive look-ahead expression `(?=)` after our expression. Include `PM` after the `=` sign inside the parentheses.",
+
+  "steps.negativeLookahead.title": "Negative Lookahead: `(?!)`",
+  "steps.negativeLookahead.description": "For example, we want to select numbers other than the hour value in the text. Therefore, we need to write the negative look-ahead `(?!)` expression after our expression to select only the numerical values that do not have `PM` after them. Include `PM` after the `!` sign inside the parentheses.",
+  
+  "steps.positiveLookbehind.title": "Positive Lookbehind: `(?<=)`",
+  "steps.positiveLookbehind.description": "For example, we want to select the price value in the text. Therefore, to select only the number values that preceded by `$`, we need to write the positive lookbehind expression `(?<=)` before our expression. Add `\\$` after the `=` sign inside the brackets.",
+
+  "steps.negativeLookbehind.title": "Negative Lookbehind: `(?&lt;!)`",
+  "steps.negativeLookbehind.description": "For example, we want to select numbers in the text other than the price value. Therefore, to select only numeric values that do not preceded by `$`, we need to write the negative lookbehind `(?&lt;!)` before our expression. Add `\\$` after the `!` inside the brackets.",
+
+  "steps.flags.title": "Flags",
+  "steps.flags.description": "Flags change the output of the expression. That's why flags are also called `modifiers`. Determines whether the typed expression treats text as separate lines, is case sensitive, or finds all matches. Continue to the next step to learn the flags.",
+
+  "steps.flagsGlobal.title": "Global Flag",
+  "steps.flagsGlobal.description": "The `global` flag causes the expression to select all matches. If not used it will only select the first match. Now enable the `global` flag to be able to select all matches.",
+
+  "steps.flagsMultiline.title": "Multiline Flag",
+  "steps.flagsMultiline.description": "RegEx sees all text as one line. But we use the `multiline` flag to handle each line separately. In this way, the expressions we write according to the end of the linework separately for each line. Now enable the `multiline` flag to find all matches.",
+
+  "steps.flagsCaseInsensitive.title": "Case-insensitive Flag",
+  "steps.flagsCaseInsensitive.description": "In order to remove the case-sensitiveness of the expression we have written, we must activate the `case-insensitive` flag.",
+  
+  "steps.greedyMatching.title": "Greedy Matching",
+  "steps.greedyMatching.description": "RegEx does a greedy match by default. This means that the matchmaking will be as long as possible. Check out the example below. It refers to any match that ends in `r` and can be any character preceded by it. But it does not stop at the first letter `r`.",
+
+  "steps.lazyMatching.title": "Lazy Matching",
+  "steps.lazyMatching.description": "Lazy matchmaking, unlike greedy matching, stops at the first matching. For example, in the example below, add a `?` after `*` to find the first match that ends with the letter `r` and is preceded by any character. It means that this match will stop at the first letter `r`.",
+
+  "steps.completeAllSteps.title": "Congratulations, you have completed all the steps!",
+  "steps.completeAllSteps.description": "You can return to the previous steps whenever you want, and you can easily navigate through all the steps you have passed."
+}

@@ -1,0 +1,20 @@
+{
+  "landing.title": "正则表达式从入门到精通",
+  "landing.description": "学习正则表达式比您想象的要容易。您可以使用此工具轻松地“学习”、“练习”、“测试”和“分享”正则表达式。",
+
+  "section.learn.title": "学习",
+  "section.learn.content": "`正则表达式(Regular Expressions)`，缩写为RegEx或RegExp，是在RegEx语法规则的框架内创建的字符串。使用RegEx可以轻松管理您的数据，它使用查找、匹配和编辑等命令。 正则表达式可用于 Python、SQL、Javascript、R、Google Analytics、Google Data Studio 等编程语言，并贯穿整个编码过程。 现在就通过 Regex Learn 上的示例和教程在线学习正则表达式。",
+
+  "section.cheatsheet.button": "查看",
+  "section.cheatsheet.title": "速查表",
+  "section.cheatsheet.content": "使用“RegexLearn 速查表”，您可以在一个页面中查看所需的所有用法。使用正则表达式速查表查看所有的正则表达式模式和符号。",
+
+  "section.playground.title": "Playground",
+  "section.playground.content": "如果你想生成一个正则表达式，你可以通过 Playground 轻松地构建和测试你的正则表达式。 作为正则表达式测试员，您可以验证您的正则表达式并将其与他人共享以进行协作。 即将推出……",
+
+  "section.practice.title": "练习",
+  "section.practice.content": "如果您完成了学习部分，那么就该练习了！ 在练习部分，您可以测试您的正则表达式知识，并根据您的水平通过教程进行练习。 即将推出……",
+
+  "section.opensource.title": "开源",
+  "section.opensource.content": "Regex Learn 是一个开源项目，欢迎社区贡献并免费使用。 参与这个项目可以让你磨练你的技能、学习和合作。 您可以在这里做出贡献和支持。 "
+}

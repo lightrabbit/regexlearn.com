@@ -1,0 +1,32 @@
+{
+  "general.prev": "上一页",
+  "general.next": "下一页",
+  "general.result": "结果",
+  "general.regex": "RegEx",
+  "general.text": "文本",
+  "general.completedStep": "步骤完成！",
+  "general.hintQuestion": "显示答案",
+  "general.reportStep": "报告问题",
+  "general.startLearning": "开始学习",
+  "general.comingSoon": "即将推出",
+  "general.becomeSponsor": "成为赞助商",
+  "general.learn": "学习",
+  "general.playground": "Playground",
+  "general.cheatsheet": "速查表",
+  "general.ourSponsors": "我们的赞助商",
+
+  "notFound.intro": "您要找的页面不存在。",
+  "notFound.button": "回到主页",
+
+  "page.landing.title": "Regex Learn - Step by step, from zero to advanced.",
+  "page.learn.title": "Regex Learn - RegEx Interactive Course",
+  "page.cheatsheet.title": "Regex Learn - RegEx Cheatsheet",
+  "page.404.title": "Regex Learn - Not Found",
+
+  "page.landing.description": "Learn RegEx interactively, practice at your level, test and share your own RegEx.",
+  "page.learn.description": "Learn RegEx step by step. Complete the interactive tutorial that will make your learning easier and faster.",
+  "page.cheatsheet.description": "Sometimes you just need to remember RegEx. Try the cheatsheet that will make it easier for you to understand and remember better.",
+
+  "alert.site.under.development": "This site is still under development. What you see now may change.",
+  "learn.safari.unsupportWarning": "Regular expressions in this step are not supported by the Safari browser. If you have trouble getting past this step. You can click here."
+}
