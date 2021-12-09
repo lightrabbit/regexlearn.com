@@ -41,50 +41,50 @@
   "examples.negatedCharacterSet.title": "练习: 取反字符集",
   "examples.negatedCharacterSet.description": "写下将匹配文本中除`beor`和`beur`之外的任何内容的表达式。 使用取反字符集执行此操作。",
 
-  "examples.range.title": "练习：字符范围",
+  "examples.range.title": "练习: 字符范围",
   "examples.range.description": "写出选择文本中从 `g` 到 `k` 的字母的正则表达式。\\n `g` 和`k` 字母也应包含在此范围内。 ",
 
   "examples.rangeNumber.title": "练习: 数字范围",
   "examples.rangeNumber.description": "键入表达式以选择文本中从 `2` 到 `7` 的数字。\\n `2` 和 `7` 也应包含在此范围内。 ",
 
-  "steps.repetitions.title": "Repetitions",
-  "steps.repetitions.description": "Some special characters are used to specify how many times a character will be repeated in the text. These special characters are the plus `+`, the asterisk `*`, and the question mark `?`.",
+  "steps.repetitions.title": "重复",
+  "steps.repetitions.description": "一些特殊字符用于指定某个字符在文本中重复的次数。 这些特殊字符分别是加号`+`、星号`*`和问号`?`。",
 
-  "steps.asterisk.title": "Asterisk `*`",
-  "steps.asterisk.description": "We put an asterisk `*` at the end to indicate that a character does not match at all or can match many times. For example, indicate that the letter `e` should never occur in the text, or it can occur once or more side by side.",
+  "steps.asterisk.title": "星号 `*`",
+  "steps.asterisk.description": "我们在目标字符的结尾加一个星号 `*` 来表示这个字符可以不匹配或者可以匹配很多次。 例如，表明字母 `e` 可以不出现在文本中，或者它可以出现一次或连续出现多次。",
 
-  "steps.plusCharacter.title": "Plus Sign `+`",
-  "steps.plusCharacter.description": "To indicate that a character can occur one or more times, we put a plus sign `+` at the end. For example, indicate that the letter `e` can occur one or more times in the text.",
+  "steps.plusCharacter.title": "加号`+`",
+  "steps.plusCharacter.description": "为了表示某个字符可以出现一次或多次，我们在其末尾加上一个加号`+`。例如，指定字母`e`可以在文本中出现一次或多次。",
 
-  "steps.questionMark.title": "Question Mark `?`",
-  "steps.questionMark.description": "To indicate that a character is optional, we put a `?` question mark at the end. For example, indicate that the following letter `u` is optional.",
+  "steps.questionMark.title": "问号 `?`",
+  "steps.questionMark.description": "为了表示某个字符是可选的，我们在其末尾加上一个问号`?`。例如，指定以下字母`u`是可选的。",
 
-  "steps.quantifier.title": "Curly Braces - 1",
-  "steps.quantifier.description": "To express a certain number of occurrences of a character, we write curly braces `{n}` along with how many times we want it to occur at the end. For example, indicate that the following letter `e` can occur only `2` times.",
+  "steps.quantifier.title": "花括号 - 1",
+  "steps.quantifier.description": "为了表示某个字符出现指定的次数，我们在其末尾写上花括号 `{n}` 以及我们希望它出现的次数。 例如，指定以下字母`e`只能出现`2`次。",
 
-  "steps.quantifierMin.title": "Curly Braces - 2",
-  "steps.quantifierMin.description": "To express at least a certain number of occurrences of a character, we write the end of the character at least how many times we want it to occur, with a comma `,` at the end, and inside curly braces `{n, }`. For example, indicate that the following letter `e` can occur at least `3` times.",
+  "steps.quantifierMin.title": "花括号 - 2",
+  "steps.quantifierMin.description": "为了表达某个字符至少出现一定次数的情况，我们在字符的末尾写上花括号 `{n, }` 以及我们希望它至少出现的次数，并在花括号内的末尾加上逗号`,`。 例如，指定以下字母`e`至少应出现`3`次。",
 
-  "steps.quantifierRange.title": "Curly Braces - 3",
-  "steps.quantifierRange.description": "To express the occurrence of a character in a certain number range, we write curly braces `{x,y}` with the interval we want to go to the end. For example, indicate that the following letter `e` can only occur between `1` and `3`.",
+  "steps.quantifierRange.title": "花括号 - 3",
+  "steps.quantifierRange.description": "为了表示某个字符的出现次数在某个数字范围内，我们其末尾写上 `{x,y}` 来表示我们想要该字符重复出现的次数的范围。例如，指定以下字母 `e` 只能出现`1`到`3`次。",
 
-  "examples.asterisk.title": "Practice: Asterisk `*`",
-  "examples.asterisk.description": "Use the asterisk `*` to write the expression that will select each word, suitable for the absence of the letter `e` in the text and the presence of more than one.",
+  "examples.asterisk.title": "练习: 星号 `*`",
+  "examples.asterisk.description": "使用星号`*` 写出选择每个单词的正则表达式，匹配文本中没有字母`e`和存在多个字母`e`的情况。",
 
-  "examples.plusCharacter.title": "Practice: Plus Sign `+`",
-  "examples.plusCharacter.description": "Write the expression using the plus sign `+` to select words in which the letter `e` occurs one or more times in the text.",
+  "examples.plusCharacter.title": "练习: 加号`+`",
+  "examples.plusCharacter.description": "使用加号`+`写出正则表达式，以选择字母`e`在文本中出现一次或多次的单词。",
 
-  "examples.questionMark.title": "Practice: Question Mark `?`",
-  "examples.questionMark.description": "Write the expression indicating that the letter `n` is optional in the text, using the question mark `?`. Thus, both the words `a` and `an` can be selected.",
+  "examples.questionMark.title": "练习: 问号 `?`",
+  "examples.questionMark.description": "用问号`?`写出表示字母`n`在文本中是可选的正则表达式，以选择单词`a`和`an`。",
 
-  "examples.quantifier.title": "Practice: Curly Braces - 1",
-  "examples.quantifier.description": "Write the expression using curly braces `{}` to select `4` digit numbers from `0` to `9` in the text.",
+  "examples.quantifier.title": "练习: 花括号 - 1",
+  "examples.quantifier.description": "使用花括号 `{}` 编写正则表达式以选择文本中从 `0` 到 `9` 的 `4` 位数字。 ",
 
-  "examples.quantifierMin.title": "Practice: Curly Braces - 2",
-  "examples.quantifierMin.description": "Type the expression using curly braces `{}` to select numbers between `0` and `9` that occur at least `2` times in the text.",
+  "examples.quantifierMin.title": "练习: 花括号 - 2",
+  "examples.quantifierMin.description": "使用花括号 `{}` 编写正则表达式，以选择文本中至少连续出现`2`次的`0`到`9`之间的数字。",
 
-  "examples.quantifierRange.title": "Practice: Curly Braces - 3",
-  "examples.quantifierRange.description": "Write the expression using curly braces `{}` to select the numbers from `0` to `9` in the text that is at least between `1` and `4`.",
+  "examples.quantifierRange.title": "练习: 花括号 - 3",
+  "examples.quantifierRange.description": "使用花括号`{}`编写正则表达式，以选择文本中连续出现`1`到`4`次的`0`到`9`之间的数字。",
 
   "steps.groupping.title": "Parentheses `( )`: Grouping",
   "steps.groupping.description": "We can group an expression and use these groups to reference or enforce some rules. To group an expression, we enclose `()` in parentheses. For now just group `haa` below.",
